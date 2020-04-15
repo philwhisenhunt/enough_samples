@@ -13,4 +13,7 @@ s = s.join
 s = s.downcase
 puts s
 
-palindrome_tester(s)
+# palindrome_tester(s)
+
+# Even better:
+palindrome_tester(s.split.join.downcase)
